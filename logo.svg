@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72">
+  <!-- Icon: recycling symbol stylisé avec vagues surf -->
+  <g fill="#3BBCAD">
+    <!-- Bras 1 : pointe vers le haut -->
+    <path transform="translate(36,36) rotate(0)"
+          d="M-11,0 C-13,-3,-15,-10,-13,-18 C-11,-24,-5,-30,0,-30 C5,-30,11,-24,13,-18 C15,-10,13,-3,11,0 C8,4,4,2,0,5 C-4,2,-8,4,-11,0Z"/>
+    <!-- Bras 2 : pointe bas-droite (120°) -->
+    <path transform="translate(36,36) rotate(120)"
+          d="M-11,0 C-13,-3,-15,-10,-13,-18 C-11,-24,-5,-30,0,-30 C5,-30,11,-24,13,-18 C15,-10,13,-3,11,0 C8,4,4,2,0,5 C-4,2,-8,4,-11,0Z"/>
+    <!-- Bras 3 : pointe bas-gauche (240°) -->
+    <path transform="translate(36,36) rotate(240)"
+          d="M-11,0 C-13,-3,-15,-10,-13,-18 C-11,-24,-5,-30,0,-30 C5,-30,11,-24,13,-18 C15,-10,13,-3,11,0 C8,4,4,2,0,5 C-4,2,-8,4,-11,0Z"/>
+  </g>
+  <!-- Texte borasurfar -->
+  <text x="84" y="50"
+        font-family="Nunito, 'Arial Rounded MT Bold', 'Varela Round', Arial, sans-serif"
+        font-size="42"
+        font-weight="800"
+        letter-spacing="-1"
+        fill="#3BBCAD">borasurfar</text>
+</svg>

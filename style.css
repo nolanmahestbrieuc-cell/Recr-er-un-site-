@@ -175,16 +175,15 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 }
 
 .logo {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 900;
+  display: inline-flex;
+  align-items: center;
   color: var(--white);
-  letter-spacing: -0.02em;
 }
 
-.logo-wave {
-  color: var(--ocean-foam);
-  font-size: 1.8rem;
+.logo-svg {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
@@ -919,7 +918,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
   margin-bottom: 60px;
 }
 
-.footer-brand .logo { color: var(--white); margin-bottom: 16px; display: block; }
+.footer-brand .logo { color: var(--white); margin-bottom: 16px; display: inline-flex; }
 
 .footer-brand p {
   font-size: 0.9rem;
