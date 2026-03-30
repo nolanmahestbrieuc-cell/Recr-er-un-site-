@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BoraSurfar — Surf Éco-Responsable à Brest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#accueil" class="logo">
+        <span class="logo-wave">~</span> BoraSurfar
+      </a>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#philosophie">Philosophie</a></li>
+        <li><a href="#planches">Planches</a></li>
+        <li><a href="#cours">Cours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg">
+      <div class="wave-animation">
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Brest, Bretagne — Depuis 2019</p>
+      <h1 class="hero-title">
+        Ride the wave.<br />
+        <span class="highlight">Save the ocean.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Des planches de surf 100&nbsp;% fabriquées à partir de matériaux recyclés.
+        Performantes, durables, et respectueuses de l'océan que vous chérissez.
+      </p>
+      <div class="hero-buttons">
+        <a href="#planches" class="btn btn-primary">Découvrir nos planches</a>
+        <a href="#philosophie" class="btn btn-outline">Notre philosophie</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- CHIFFRES -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-item">
+        <span class="stat-number" data-target="100">0</span><span class="stat-unit">%</span>
+        <p>Matériaux recyclés</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="250">0</span><span class="stat-unit">+</span>
+        <p>Planches fabriquées</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="5">0</span><span class="stat-unit">t</span>
+        <p>Plastique valorisé</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="400">0</span><span class="stat-unit">+</span>
+        <p>Surfeurs formés</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHIE -->
+  <section class="philosophie" id="philosophie">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Notre ADN</span>
+        <h2>Surfer sans compromettre l'avenir</h2>
+        <p>Chez BoraSurfar, chaque planche est une promesse faite à l'océan.</p>
+      </div>
+      <div class="philo-grid">
+        <div class="philo-card">
+          <div class="philo-icon">♻️</div>
+          <h3>Matériaux 100&nbsp;% recyclés</h3>
+          <p>
+            Nos planches sont façonnées à partir de mousses récupérées, de résines
+            biosourcées et de fibres de verre issues de déchets industriels locaux.
+            Zéro matière vierge. Zéro compromis sur la performance.
+          </p>
+        </div>
+        <div class="philo-card">
+          <div class="philo-icon">🌊</div>
+          <h3>Fabriquées à Brest</h3>
+          <p>
+            Notre atelier est installé au cœur de la rade de Brest. Chaque étape
+            de fabrication — shape, stratification, ponçage, peinture — est réalisée
+            à la main par nos shapers locaux.
+          </p>
+        </div>
+        <div class="philo-card">
+          <div class="philo-icon">🔬</div>
+          <h3>R&amp;D permanente</h3>
+          <p>
+            Nous collaborons avec l'UBO (Université de Bretagne Occidentale) pour
+            développer de nouveaux matériaux composites issus des algues et des
+            déchets marins bretons.
+          </p>
+        </div>
+        <div class="philo-card">
+          <div class="philo-icon">🤝</div>
+          <h3>Circuit court</h3>
+          <p>
+            Tous nos fournisseurs de matériaux se trouvent à moins de 300&nbsp;km de
+            notre atelier. Nous collectons également les déchets plastiques sur
+            les plages bretonnes avec nos partenaires associatifs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANCHES -->
+  <section class="planches" id="planches">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nos créations</span>
+        <h2>Des planches qui ont du vécu</h2>
+        <p>Chaque modèle porte en lui une seconde vie.</p>
+      </div>
+      <div class="planches-grid">
+
+        <div class="planche-card">
+          <div class="planche-visual planche-1">
+            <div class="planche-shape"></div>
+            <div class="planche-badge">Bestseller</div>
+          </div>
+          <div class="planche-info">
+            <h3>L'Iroise</h3>
+            <p class="planche-type">Longboard · 9'2"</p>
+            <p class="planche-desc">
+              Notre modèle emblématique. Fabriqué à partir de mousses EPS
+              récupérées d'emballages industriels et recouvert d'une résine
+              biosourcée à base d'huile de lin bretonne.
+            </p>
+            <ul class="planche-specs">
+              <li><span>Mousse</span> EPS recyclé</li>
+              <li><span>Résine</span> Biosourcée lin</li>
+              <li><span>Fins</span> Bambou récupéré</li>
+            </ul>
+            <div class="planche-footer">
+              <span class="planche-price">890 €</span>
+              <a href="#contact" class="btn btn-small">Commander</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="planche-card">
+          <div class="planche-visual planche-2">
+            <div class="planche-shape"></div>
+          </div>
+          <div class="planche-info">
+            <h3>Le Finistère</h3>
+            <p class="planche-type">Shortboard · 6'4"</p>
+            <p class="planche-desc">
+              Pour les vagues creuses du Pays d'Iroise. Structure en PU recyclé
+              renforcée de fibres de verre issues de la filière éolienne bretonne.
+            </p>
+            <ul class="planche-specs">
+              <li><span>Mousse</span> PU recyclé</li>
+              <li><span>Fibre</span> Éolienne recyclée</li>
+              <li><span>Leash</span> Plastique océan</li>
+            </ul>
+            <div class="planche-footer">
+              <span class="planche-price">720 €</span>
+              <a href="#contact" class="btn btn-small">Commander</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="planche-card">
+          <div class="planche-visual planche-3">
+            <div class="planche-shape"></div>
+            <div class="planche-badge planche-badge-new">Nouveau</div>
+          </div>
+          <div class="planche-info">
+            <h3>La Corsen</h3>
+            <p class="planche-type">Fish · 5'8"</p>
+            <p class="planche-desc">
+              Notre dernière création. Corps façonné en algues compressées et
+              résine d'algues brunes, développé en partenariat avec l'UBO.
+              La planche de demain est là aujourd'hui.
+            </p>
+            <ul class="planche-specs">
+              <li><span>Corps</span> Algues compressées</li>
+              <li><span>Résine</span> Algues brunes</li>
+              <li><span>Fins</span> Bois flotté</li>
+            </ul>
+            <div class="planche-footer">
+              <span class="planche-price">980 €</span>
+              <a href="#contact" class="btn btn-small">Pré-commander</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COURS -->
+  <section class="cours" id="cours">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">École de surf</span>
+        <h2>Apprenez à surfer, apprenez à respecter</h2>
+        <p>Chaque cours intègre une sensibilisation à la préservation des océans.</p>
+      </div>
+      <div class="cours-grid">
+        <div class="cours-card">
+          <div class="cours-header">
+            <h3>Initiation</h3>
+            <span class="cours-level niveau-debutant">Débutant</span>
+          </div>
+          <p>2h en mer avec un moniteur diplômé d'État. Planches recyclées fournies.</p>
+          <ul>
+            <li>Sécurité en mer</li>
+            <li>Lecture des vagues</li>
+            <li>Premières atterrissages</li>
+            <li>Sensibilisation écologique</li>
+          </ul>
+          <div class="cours-footer">
+            <span class="cours-price">45 € / pers.</span>
+          </div>
+        </div>
+        <div class="cours-card cours-featured">
+          <div class="cours-header">
+            <h3>Progression</h3>
+            <span class="cours-level niveau-inter">Intermédiaire</span>
+          </div>
+          <p>Stage de 5 jours pour passer au niveau supérieur. Petit groupe (max 6).</p>
+          <ul>
+            <li>Techniques de rame</li>
+            <li>Positionnement sur la vague</li>
+            <li>Manœuvres de base</li>
+            <li>Visite de notre atelier</li>
+            <li>Nettoyage de plage inclus</li>
+          </ul>
+          <div class="cours-footer">
+            <span class="cours-price">320 € / pers.</span>
+          </div>
+        </div>
+        <div class="cours-card">
+          <div class="cours-header">
+            <h3>Perfectionnement</h3>
+            <span class="cours-level niveau-avance">Avancé</span>
+          </div>
+          <p>Coaching individualisé pour surfers confirmés souhaitant progresser rapidement.</p>
+          <ul>
+            <li>Analyse vidéo</li>
+            <li>Spots confidentiels</li>
+            <li>Coaching nutrition</li>
+            <li>Préparation physique surf</li>
+          </ul>
+          <div class="cours-footer">
+            <span class="cours-price">120 € / h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMOIGNAGES -->
+  <section class="temoignages">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ils témoignent</span>
+        <h2>Ce que disent nos riders</h2>
+      </div>
+      <div class="temoignages-slider" id="slider">
+        <div class="temoignage active">
+          <blockquote>
+            "La qualité de L'Iroise m'a bluffé. On ne sent pas la différence avec une planche classique, mais on sait qu'on fait quelque chose de bien pour la planète. Je ne surfe plus sans elle."
+          </blockquote>
+          <cite>— Malo B., Brest</cite>
+        </div>
+        <div class="temoignage">
+          <blockquote>
+            "J'ai pris des cours avec BoraSurfar l'été dernier. Ce qui m'a marqué, c'est la passion qu'ils mettent à la fois dans l'enseignement du surf et dans la protection de l'océan. Bravo !"
+          </blockquote>
+          <cite>— Anaëlle K., Quimper</cite>
+        </div>
+        <div class="temoignage">
+          <blockquote>
+            "La Corsen est incroyable. Des algues compressées pour faire une planche de surf, qui aurait cru ? Et pourtant ça tient la route. Hâte de voir la suite !"
+          </blockquote>
+          <cite>— Tanguy L., Brest</cite>
+        </div>
+      </div>
+      <div class="slider-dots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-tag">Nous trouver</span>
+          <h2>Venez nous rendre visite</h2>
+          <p>Notre atelier est ouvert du mardi au samedi. Venez découvrir le processus de fabrication de nos planches recyclées en vrai.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Adresse</strong>
+                <p>12 Rue du Port de Commerce<br />29200 Brest, Bretagne</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <strong>Téléphone</strong>
+                <p>02 98 XX XX XX</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>bonjour@borasurfar.fr</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🕐</span>
+              <div>
+                <strong>Horaires atelier</strong>
+                <p>Mar–Ven : 9h–18h<br />Sam : 9h–13h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <h3>Écrivez-nous</h3>
+          <div class="form-group">
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.fr" required />
+          </div>
+          <div class="form-group">
+            <label for="sujet">Sujet</label>
+            <select id="sujet" name="sujet">
+              <option value="">Choisissez un sujet</option>
+              <option value="planche">Commander une planche</option>
+              <option value="cours">Réserver un cours</option>
+              <option value="visite">Visite de l'atelier</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+          <p class="form-success" id="form-success">Message envoyé ! Nous vous répondrons très vite. 🌊</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#accueil" class="logo">
+            <span class="logo-wave">~</span> BoraSurfar
+          </a>
+          <p>Le surf éco-responsable à Brest depuis 2019. 100&nbsp;% matériaux recyclés, 100&nbsp;% passion.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">Insta</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#philosophie">Philosophie</a></li>
+            <li><a href="#planches">Nos planches</a></li>
+            <li><a href="#cours">École de surf</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Engagement</h4>
+          <ul>
+            <li><a href="#">Nos matériaux</a></li>
+            <li><a href="#">Partenaires</a></li>
+            <li><a href="#">Collectes plage</a></li>
+            <li><a href="#">R&amp;D Algues</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BoraSurfar — Brest, Bretagne. Fait avec ♻️ et ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
