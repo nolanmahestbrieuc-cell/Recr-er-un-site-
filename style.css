@@ -159,7 +159,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 }
 
 .navbar.scrolled {
-  background: rgba(10, 42, 74, 0.97);
+  background: rgba(40, 40, 40, 0.97);
   backdrop-filter: blur(12px);
   padding: 12px 0;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.3);
@@ -250,7 +250,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(160deg, var(--ocean-deep) 0%, var(--ocean-mid) 50%, #1a7a9a 100%);
+  background: var(--white);
 }
 
 .hero-bg {
@@ -303,7 +303,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
   position: relative;
   z-index: 2;
   text-align: center;
-  color: var(--white);
+  color: var(--text-dark);
   max-width: 800px;
   padding: 120px 24px 80px;
 }
@@ -313,7 +313,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--ocean-foam);
+  color: var(--eco-green);
   margin-bottom: 24px;
 }
 
@@ -378,7 +378,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
    STATS
 =========================== */
 .stats {
-  background: var(--ocean-deep);
+  background: var(--sand);
   padding: 60px 0;
 }
 
@@ -390,7 +390,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 }
 
 .stat-item {
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .stat-number {
@@ -718,17 +718,17 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 =========================== */
 .temoignages {
   padding: 100px 0;
-  background: var(--ocean-deep);
+  background: var(--sand);
   text-align: center;
 }
 
 .temoignages .section-tag {
-  background: rgba(174, 214, 241, 0.15);
-  color: var(--ocean-foam);
+  background: rgba(30, 132, 73, 0.12);
+  color: var(--eco-green);
 }
 
 .temoignages .section-header h2 {
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .temoignages-slider {
@@ -753,14 +753,14 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
 .temoignage blockquote {
   font-family: var(--font-display);
   font-size: clamp(1.05rem, 2vw, 1.3rem);
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-dark);
   line-height: 1.6;
   margin-bottom: 20px;
   font-style: italic;
 }
 
 .temoignage cite {
-  color: var(--ocean-foam);
+  color: var(--text-mid);
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
@@ -912,7 +912,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; }
    FOOTER
 =========================== */
 .footer {
-  background: var(--ocean-deep);
+  background: #2d2d2d;
   padding: 80px 0 32px;
   color: rgba(255, 255, 255, 0.7);
 }
